@@ -2,7 +2,7 @@ module.exports = {
   title: 'Jegyezetek',
   tagline: 'Egyetemi jegyzeteim',
   url: 'https://jegyzetek.vercel.app/',
-  baseUrl: '/docs',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'matyifkbt', // Usually your GitHub org/user name.
   projectName: 'jegyzetek', // Usually your repo name.
