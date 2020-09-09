@@ -77,7 +77,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/matyifkbt/jegyzetek/edit/master/blog/',
+            'https://github.com/matyifkbt/jegyzetek/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
