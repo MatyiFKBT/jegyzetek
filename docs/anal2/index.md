@@ -1,5 +1,5 @@
 ---
 slug: 'index'
-title: Analízis 2
-sidebar_label: Analízis 2
+title: Analízis 2 Infók
+sidebar_label: Infók
 ---

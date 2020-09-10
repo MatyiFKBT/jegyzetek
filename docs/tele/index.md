@@ -1,5 +1,5 @@
 ---
 slug: 'index'
-title: Telekommunikációs Hálózatok
-sidebar_label: Telekommunikációs Hálózatok
+title: Telekommunikációs hálózatok
+sidebar_label: Infók
 ---

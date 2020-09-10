@@ -4,49 +4,49 @@ module.exports = {
     "a-kurzusok",
     {
         "type": "category",
-        "label": "adatb1",
-        "items": [
-            "adatb1/index"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "algo2",
-        "items": [
-            "algo2/index"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "anal2",
-        "items": [
-            "anal2/index"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "dimod",
-        "items": [
-            "dimod/index"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "fstack",
+        "label": "Fullstack webprogramozás",
         "items": [
             "fstack/index"
         ]
     },
     {
         "type": "category",
-        "label": "konk",
+        "label": "Konkurrens programozás",
         "items": [
             "konk/index"
         ]
     },
     {
         "type": "category",
-        "label": "tele",
+        "label": "Analízis 2",
+        "items": [
+            "anal2/index"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Algoritmusok és adatszerkezetek 2",
+        "items": [
+            "algo2/index"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Adatbázisok 1",
+        "items": [
+            "adatb1/index"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Diszkrét modellek alkalmazásai",
+        "items": [
+            "dimod/index"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Telekommunikációs hálózatok",
         "items": [
             "tele/index"
         ]
