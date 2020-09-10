@@ -4,8 +4,6 @@ title: A kurzusok
 sidebar_label: A kurzusok
 ---
 
-# A kurzusok
-
 ## Gyakorlatok
 
 - [Analízis II. Gy (F)](anal2/index)
