@@ -10,6 +10,7 @@ module.exports = {
         ]
     },
     "doc1",
+    "doc2",
     {
         "type": "category",
         "label": "masik",

@@ -1,5 +1,6 @@
 ---
 id: doc2
+slug: doc2
 title: Document Number 2
 ---
 
