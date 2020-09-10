@@ -13,7 +13,7 @@ module.exports = {
         alt: 'Jegyzetek Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -68,7 +68,7 @@ module.exports = {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'doc1',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.auto.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/matyifkbt/jegyzetek/edit/master/',
@@ -84,5 +84,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    'docusaurus-plugin-auto-sidebars',
   ],
 };
