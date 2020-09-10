@@ -1,9 +1,9 @@
 ---
-slug: "/"
+slug: '/'
 title: A kurzusok
 sidebar_label: A kurzusok
-
 ---
+
 # A kurzusok
 
 ## Gyakorlatok

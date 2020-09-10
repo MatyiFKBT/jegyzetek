@@ -32,16 +32,12 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Jegyzetek',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Jegyzetek',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
           ],
         },
         {
