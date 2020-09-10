@@ -3,8 +3,8 @@ label: Page
 hide_body: false
 fields:
 - type: text
-  name: id
-  label: id
+  name: slug
+  label: slug
 - type: text
   name: title
   label: title
