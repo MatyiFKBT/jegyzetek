@@ -64,6 +64,7 @@ module.exports = {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
           sidebarPath: require.resolve('./sidebars.auto.js'),
+          showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/matyifkbt/jegyzetek/edit/master/',
