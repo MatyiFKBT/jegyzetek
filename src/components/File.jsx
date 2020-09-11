@@ -29,9 +29,9 @@ function File(props) {
   return (
     <div>
       <pre className="title">
-        <a href={editUrl + props.filename}>{props.filename}</a>
+        <a href={editUrl +props.folder+"/"+ props.filename}>{props.filename}</a>
       </pre>
-      <a href={editUrl + props.filename} className='ne'>
+      <a href={editUrl +props.folder+"/"+ props.filename} className='ne'>
         <Highlight {...defaultProps} code={content} language={language}>
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
             <pre className={className} style={style}>
