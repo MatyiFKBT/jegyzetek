@@ -14,7 +14,13 @@ module.exports = {
         "type": "category",
         "label": "Konkurrens programozás",
         "items": [
-            "konk/0.index"
+            "konk/0.index",
+            {
+                "type": "category",
+                "label": "elso",
+                "items": []
+            },
+            "konk/1.gyakorlat"
         ]
     },
     {
@@ -49,7 +55,8 @@ module.exports = {
         "type": "category",
         "label": "Telekommunikációs hálózatok",
         "items": [
-            "tele/0.index"
+            "tele/0.index",
+            "tele/1.gyakorlat"
         ]
     }
 ]
