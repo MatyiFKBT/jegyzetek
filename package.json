@@ -7,12 +7,14 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "files": "cd src && node files.js"
+    "files": "cd src && node files.js",
+    "bserve": "yarn build && npx serve build"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.56",
     "@docusaurus/preset-classic": "^2.0.0-alpha.56",
     "classnames": "^2.2.6",
+    "docusaurus-file": "^1.0.0",
     "docusaurus-plugin-auto-sidebars": "^1.0.7",
     "prism-react-renderer": "^1.1.1",
     "react": "^16.8.4",
@@ -30,5 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "editUrl": "https://github.com/matyifkbt/jegyzetek/blob/master/docs/"
+  "editUrl": "https://github.com/matyifkbt/jegyzetek/blob/master/docs/",
+  "rawDocs": "https://raw.githubusercontent.com/matyifkbt/jegyzetek/master/docs/",
+  "repository": "matyifkbt/jegyzetek"
 }

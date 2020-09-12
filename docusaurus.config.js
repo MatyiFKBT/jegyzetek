@@ -84,4 +84,7 @@ module.exports = {
   plugins: [
     'docusaurus-plugin-auto-sidebars',
   ],
+  customFields: {
+    repo:  "matyifkbt/jegyzetek",
+  }
 };
