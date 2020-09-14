@@ -5,7 +5,7 @@ function Filelist({ folder, token = '' }) {
   const repo = 'https://raw.githubusercontent.com/MatyiFKBT/jegyzetek/master/';
   async function getContents(folder) {
     const res = await fetch(
-      `http://api.github.com/repos/MatyiFKBT/jegyzetek/contents/docs/${folder}`
+      `https://api.github.com/repos/MatyiFKBT/jegyzetek/contents/docs/${folder}`
     );
     const text = await res.json();
     setContents(
