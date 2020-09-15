@@ -2,6 +2,7 @@
 slug: '/'
 title: A kurzusok
 sidebar_label: A kurzusok
+
 ---
 
 ## Gyakorlatok
@@ -13,3 +14,7 @@ sidebar_label: A kurzusok
 - [Konkurrens programozás Ea+Gy](konk/index)
 - [Algoritmusok és adatszerkezetek II Gy](algo2/index)
 - [Full stack webprogramozás Gy](fstack/index)
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEEga3VyenVzb2tcbiIsIm
+hpc3RvcnkiOlsxMjY5ODc5NDcwXX0=
+-->
