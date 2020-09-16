@@ -18,6 +18,11 @@ előző gyakorlatról
 | 7839 | KING  | PRESIDENT   |        | 81-NOV.-17 | 5000    |         | 10    |
 | 7698 | BLAKE | MANAGER     | 7839   | 81-MÁJ.-01 | 2850    |         | 30    |
 
+|OAZON|ONEV  |TELEP
+|--|--|
+|  |  |
+
+
 
 1.  Kik azok a dolgozók, akiknek a fizetése nagyobb, mint 2800?
 2.  Kik azok a dolgozók, akik a 10-es vagy a 20-as osztályon dolgoznak?
@@ -30,5 +35,5 @@ előző gyakorlatról
 9.  Kik azok, akiknek nincs főnöke?
 10.  Kik azok a dolgozók, akiknek a főnöke KING? (egyelőre leolvasva a képernyőről)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTU4MTE5Nl19
+eyJoaXN0b3J5IjpbLTE0MzM4MzI3OV19
 -->
