@@ -13,7 +13,10 @@ előző gyakorlatról
 `SELECT nev FROM szeret WHERE gyumolcs = 'alma' or gyumolcs = 'körte';`
 
 ### DOLGOZO tábla feladatok
-
+| DKOD | DNEV  | FOGLALKOZAS | FONOKE | BELEPES    | FIZETES | JUTALEK | OAZON |
+|------|-------|-------------|--------|------------|---------|---------|-------|
+| 7839 | KING  | PRESIDENT   |        | 81-NOV.-17 | 5000    |         | 10    |
+| 7698 | BLAKE | MANAGER     | 7839   | 81-MÁJ.-01 | 2850    |         | 30    |
 
 
 1.  Kik azok a dolgozók, akiknek a fizetése nagyobb, mint 2800?
@@ -27,5 +30,5 @@ előző gyakorlatról
 9.  Kik azok, akiknek nincs főnöke?
 10.  Kik azok a dolgozók, akiknek a főnöke KING? (egyelőre leolvasva a képernyőről)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIwNzA3NjVdfQ==
+eyJoaXN0b3J5IjpbMTIwOTU4MTE5Nl19
 -->
