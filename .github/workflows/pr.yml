@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+  pull_request:
+    types: 'closed'
+
+jobs:
+  createPullRequest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Make changes to pull request
+        run: date > last-pr.txt
+          
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: New files"
+          committer: MatyiFKBT <mmatyi1999@gmail.com>
+          signoff: false
+          branch: stackedit
+          delete-branch: false
+          title: 'docs: New PR'
+          body: New PR, for new files
+          draft: false
+
+      - name: Check output
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
