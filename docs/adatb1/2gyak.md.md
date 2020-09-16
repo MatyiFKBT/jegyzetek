@@ -7,6 +7,11 @@ sidebar_title: 2. Gyakorlat
 
 ## Feladatok
 
+### SZERET tábla feladatok
+előző gyakorlatról
+-   Kik szeretik vagy az almát vagy a körtét?
+`SELECT nev FROM szeret WHERE gyumolcs = 'alma' or gyumolcs = 'körte';`
+
 ### DOLGOZO tábla feladatok
 
 1.  Kik azok a dolgozók, akiknek a fizetése nagyobb, mint 2800?
@@ -20,5 +25,5 @@ sidebar_title: 2. Gyakorlat
 9.  Kik azok, akiknek nincs főnöke?
 10.  Kik azok a dolgozók, akiknek a főnöke KING? (egyelőre leolvasva a képernyőről)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTUyMTMwOV19
+eyJoaXN0b3J5IjpbMTE2MDcwODU5MV19
 -->
