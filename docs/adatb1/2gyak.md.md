@@ -14,6 +14,8 @@ előző gyakorlatról
 
 ### DOLGOZO tábla feladatok
 
+
+
 1.  Kik azok a dolgozók, akiknek a fizetése nagyobb, mint 2800?
 2.  Kik azok a dolgozók, akik a 10-es vagy a 20-as osztályon dolgoznak?
 3.  Kik azok, akiknek a jutaléka nagyobb, mint 600?
@@ -25,5 +27,5 @@ előző gyakorlatról
 9.  Kik azok, akiknek nincs főnöke?
 10.  Kik azok a dolgozók, akiknek a főnöke KING? (egyelőre leolvasva a képernyőről)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDcwODU5MV19
+eyJoaXN0b3J5IjpbLTEyMjIwNzA3NjVdfQ==
 -->
