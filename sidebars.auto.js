@@ -4,10 +4,24 @@ module.exports = {
     "a-kurzusok",
     {
         "type": "category",
+        "label": "bigdata",
+        "items": [
+            "bigdata/0.index"
+        ]
+    },
+    {
+        "type": "category",
         "label": "Fullstack webprogramozás",
         "items": [
             "fstack/0.index",
             "fstack/1.gyakorlat"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "szamelm2",
+        "items": [
+            "szamelm2/szamitaselmelet-2"
         ]
     },
     {
@@ -20,7 +34,70 @@ module.exports = {
                 "label": "elso",
                 "items": []
             },
-            "konk/1.gyakorlat"
+            {
+                "type": "category",
+                "label": "gyak2",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "src",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "hu",
+                                "items": [
+                                    {
+                                        "type": "category",
+                                        "label": "elte",
+                                        "items": [
+                                            {
+                                                "type": "category",
+                                                "label": "inf",
+                                                "items": [
+                                                    {
+                                                        "type": "category",
+                                                        "label": "pp",
+                                                        "items": [
+                                                            {
+                                                                "type": "category",
+                                                                "label": "gyak",
+                                                                "items": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "kindergarten",
+                                "items": [
+                                    {
+                                        "type": "category",
+                                        "label": "control",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "category",
+                                        "label": "model",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "category",
+                                        "label": "view",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "konk/1.gyakorlat",
+            "konk/2.gyakorlat"
         ]
     },
     {
@@ -34,14 +111,22 @@ module.exports = {
         "type": "category",
         "label": "Algoritmusok és adatszerkezetek 2",
         "items": [
-            "algo2/0.index"
+            "algo2/0.index",
+            {
+                "type": "category",
+                "label": "elso",
+                "items": []
+            },
+            "algo2/1.gyakorlat",
+            "algo2/2.gyakorlat"
         ]
     },
     {
         "type": "category",
         "label": "Adatbázisok 1",
         "items": [
-            "adatb1/0.index"
+            "adatb1/0.index",
+            "adatb1/2.gyakorlat"
         ]
     },
     {
