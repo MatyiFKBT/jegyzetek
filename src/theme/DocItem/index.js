@@ -18,6 +18,7 @@ import {
   useVersions,
   useActiveVersion,
 } from '@theme/hooks/useDocs';
+import Filelist from '../../components/Filelist';
 
 function DocItem(props) {
   const {siteConfig = {}} = useDocusaurusContext();
@@ -98,7 +99,10 @@ function DocItem(props) {
                 <div className="markdown">
                   <DocContent />
                   {metadata.files && (
-                    <p>{metadata.files}</p>
+                    // <p>{metadata.files}</p>
+                    <div>
+                      <Filelist folder={permalink}/>
+                    </div>
                   )}
                   {/* TODO: Fájlok */}
                 </div>
