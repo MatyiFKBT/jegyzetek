@@ -97,6 +97,7 @@ function DocItem(props) {
                 )}
                 <div className="markdown">
                   <DocContent />
+                <p>{metadata.files}</p>
                 {/* TODO: Fájlok */}
                 </div>
               </article>

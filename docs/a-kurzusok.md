@@ -2,6 +2,7 @@
 slug: '/'
 title: A kurzusok
 sidebar_label: A kurzusok
+files: 'yeagh'
 ---
 
 ## Gyakorlatok
