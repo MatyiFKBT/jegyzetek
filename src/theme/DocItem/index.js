@@ -97,8 +97,10 @@ function DocItem(props) {
                 )}
                 <div className="markdown">
                   <DocContent />
-                <p>{metadata.files}</p>
-                {/* TODO: Fájlok */}
+                  {metadata.files && (
+                    <p>{metadata.files}</p>
+                  )}
+                  {/* TODO: Fájlok */}
                 </div>
               </article>
               {(editUrl || lastUpdatedAt || lastUpdatedBy) && (

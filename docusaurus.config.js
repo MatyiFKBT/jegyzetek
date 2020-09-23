@@ -55,7 +55,13 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} MatyiFKBT. Built with Docusaurus.`,
+      
     },
+    algolia: {
+      apiKey: '94099ec7fd30f17f58a1fc12ced895d8',
+      indexName: 'jegyzetek',
+      appId: 'I8QBS59LL4'
+    }
   },
   presets: [
     [
