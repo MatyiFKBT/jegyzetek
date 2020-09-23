@@ -15,7 +15,7 @@ jobs:
         node-version: 14.x
     - run: sleep 45s
     - name: Remove old deployments
-    - run: npx now-clear -n jegyzetek -t ${{ secrets.NOW_TOKEN }}
+      run: npx now-clear -n jegyzetek -t ${{ secrets.NOW_TOKEN }}
 
   update:
     runs-on: ubuntu-latest
