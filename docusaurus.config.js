@@ -1,3 +1,6 @@
+const math = require('remark-math')
+const katex = require('rehype-katex')
+
 module.exports = {
   title: 'Jegyezetek',
   tagline: 'Egyetemi jegyzeteim',
@@ -74,6 +77,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/matyifkbt/jegyzetek/edit/master/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -92,5 +97,13 @@ module.exports = {
   ],
   customFields: {
     repo:  "matyifkbt/jegyzetek",
-  }
+  },
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
+      crossorigin: 'anonymous',
+    },
+  ],
 };
