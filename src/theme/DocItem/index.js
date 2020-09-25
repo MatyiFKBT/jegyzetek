@@ -100,14 +100,13 @@ function DocItem(props) {
                 )}
                 <div className="markdown">
                   <DocContent />
+                  {/* Fájlok */}
                   {metadata.files && (
-                    // <p>{metadata.files}</p>
                     <div>
                       <pre><a target="_blank" href={`${repo}${permalink}`}>{permalink}</a> tartalma:</pre>
                       <Filelist folder={permalink}/>
                     </div>
                   )}
-                  {/* TODO: Fájlok */}
                 </div>
               </article>
               {(editUrl || lastUpdatedAt || lastUpdatedBy) && (
