@@ -54,6 +54,8 @@ function DocItem(props) {
   const metaImageUrl = useBaseUrl(metaImage, {
     absolute: true,
   });
+
+  const repo = "https://github.com/MatyiFKBT/jegyzetek/tree/master";
   return (
     <>
       <Head>
@@ -101,6 +103,7 @@ function DocItem(props) {
                   {metadata.files && (
                     // <p>{metadata.files}</p>
                     <div>
+                      <pre><a target="_blank" href={`${repo}${permalink}`}>{permalink}</a> tartalma:</pre>
                       <Filelist folder={permalink}/>
                     </div>
                   )}
