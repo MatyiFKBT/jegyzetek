@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "patch-package",
     "start": "docusaurus start --port 8080 --host 0.0.0.0",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -36,5 +37,9 @@
   },
   "editUrl": "https://github.com/matyifkbt/jegyzetek/blob/master/docs/",
   "rawDocs": "https://raw.githubusercontent.com/matyifkbt/jegyzetek/master/docs/",
-  "repository": "matyifkbt/jegyzetek"
+  "repository": "matyifkbt/jegyzetek",
+  "devDependencies": {
+    "patch-package": "^6.2.2",
+    "postinstall-postinstall": "^2.1.0"
+  }
 }

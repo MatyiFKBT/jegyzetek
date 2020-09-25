@@ -141,13 +141,13 @@ module.exports = {
         "label": "Telekommunikációs hálózatok",
         "items": [
             "tele/0.index",
+            "tele/1.gyakorlat",
+            "tele/2.gyakorlat",
             {
                 "type": "category",
                 "label": "gyak2",
                 "items": []
-            },
-            "tele/1.gyakorlat",
-            "tele/2.gyakorlat"
+            }
         ]
     }
 ]

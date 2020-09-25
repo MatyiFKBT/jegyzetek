@@ -4,15 +4,18 @@ function Filelist({ folder, token = '' }) {
   const [contents, setContents] = useState([]);
   const repo = 'https://raw.githubusercontent.com/MatyiFKBT/jegyzetek/master/';
   async function getContents(folder) {
+    folder = folder.replace('/docs/', '');
     const res = await fetch(
       `https://api.github.com/repos/MatyiFKBT/jegyzetek/contents/docs/${folder}`
     );
     const text = await res.json();
     setContents(
       text.map((el) => {
-        return (<a key={el} href={repo + el.path}>
-          <li>{el.name}</li>
-        </a>);
+        return (
+          <a key={el.name} href={repo + el.path}>
+            <li key={el.name}>{el.name}</li>
+          </a>
+        );
       })
     );
   }
@@ -31,4 +34,4 @@ function Filelist({ folder, token = '' }) {
   );
 }
 
-export default Filelist
+export default Filelist;
