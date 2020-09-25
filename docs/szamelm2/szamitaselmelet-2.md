@@ -1,6 +1,6 @@
 ---
 slug: infok
-title: Számításelmélet 2
+title: Számításelmélet Alapjai 2
 sidebar_label: Infók
 
 ---
