@@ -4,24 +4,10 @@ module.exports = {
     "a-kurzusok",
     {
         "type": "category",
-        "label": "bigdata",
-        "items": [
-            "bigdata/0.index"
-        ]
-    },
-    {
-        "type": "category",
         "label": "Fullstack webprogramozás",
         "items": [
             "fstack/0.index",
             "fstack/1.gyakorlat"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "szamelm2",
-        "items": [
-            "szamelm2/szamitaselmelet-2"
         ]
     },
     {
@@ -31,70 +17,8 @@ module.exports = {
             "konk/0.index",
             {
                 "type": "category",
-                "label": "elso",
+                "label": "gyak1",
                 "items": []
-            },
-            {
-                "type": "category",
-                "label": "gyak2",
-                "items": [
-                    {
-                        "type": "category",
-                        "label": "src",
-                        "items": [
-                            {
-                                "type": "category",
-                                "label": "hu",
-                                "items": [
-                                    {
-                                        "type": "category",
-                                        "label": "elte",
-                                        "items": [
-                                            {
-                                                "type": "category",
-                                                "label": "inf",
-                                                "items": [
-                                                    {
-                                                        "type": "category",
-                                                        "label": "pp",
-                                                        "items": [
-                                                            {
-                                                                "type": "category",
-                                                                "label": "gyak",
-                                                                "items": []
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "category",
-                                "label": "kindergarten",
-                                "items": [
-                                    {
-                                        "type": "category",
-                                        "label": "control",
-                                        "items": []
-                                    },
-                                    {
-                                        "type": "category",
-                                        "label": "model",
-                                        "items": []
-                                    },
-                                    {
-                                        "type": "category",
-                                        "label": "view",
-                                        "items": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
             },
             "konk/1.gyakorlat",
             "konk/2.gyakorlat"
@@ -126,7 +50,8 @@ module.exports = {
         "label": "Adatbázisok 1",
         "items": [
             "adatb1/0.index",
-            "adatb1/2.gyakorlat"
+            "adatb1/2.gyakorlat",
+            "adatb1/3.gyakorlat"
         ]
     },
     {
@@ -141,13 +66,33 @@ module.exports = {
         "label": "Telekommunikációs hálózatok",
         "items": [
             "tele/0.index",
-            "tele/1.gyakorlat",
-            "tele/2.gyakorlat",
             {
                 "type": "category",
                 "label": "gyak2",
                 "items": []
-            }
+            },
+            {
+                "type": "category",
+                "label": "gyak3",
+                "items": []
+            },
+            "tele/1.gyakorlat",
+            "tele/2.gyakorlat",
+            "tele/3.gyakorlat"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Számításelmélet 2",
+        "items": [
+            "szamelm2/szamitaselmelet-2"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Big Data Architektúrák",
+        "items": [
+            "bigdata/0.index"
         ]
     }
 ]
