@@ -29,3 +29,19 @@ a.ne {
 pre.title {
   margin-bottom: 5px;
 }
+
+ul.files {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li.files {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li.files:before {
+  content: "┕";
+  padding-right: 5px;
+}

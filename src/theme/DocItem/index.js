@@ -19,6 +19,7 @@ import {
   useActiveVersion,
 } from '@theme/hooks/useDocs';
 import Filelist from '../../components/Filelist';
+import GoogleCloud from '../../components/GoogleCloud';
 
 function DocItem(props) {
   const {siteConfig = {}} = useDocusaurusContext();
@@ -103,8 +104,10 @@ function DocItem(props) {
                   {/* Fájlok */}
                   {metadata.files && (
                     <div>
-                      <pre><a target="_blank" href={`${repo}${permalink}`}>{permalink}</a> tartalma:</pre>
+                      <pre><a target="_blank" href={`${repo}${permalink}`}>{permalink}</a> tartalma:
                       <Filelist folder={permalink}/>
+                      </pre>
+                      <GoogleCloud folder={permalink} file={metadata.files}/>
                     </div>
                   )}
                 </div>
