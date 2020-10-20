@@ -13,7 +13,7 @@ function Filelist({ folder, token = '' }) {
       text.map((el) => {
         return (
           <a key={el.name} href={repo + el.path}>
-            <li key={el.name}>{el.name}</li>
+            <li className="files" key={el.name}>{el.name}</li>
           </a>
         );
       })
@@ -28,8 +28,8 @@ function Filelist({ folder, token = '' }) {
   }, [folder]);
 
   return (
-    <div>
-      <ul>{contents}</ul>
+    <div style={{bgcolor: "#fff000"}}>
+      <ul className="files">{contents}</ul>
     </div>
   );
 }

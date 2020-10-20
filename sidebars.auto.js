@@ -28,7 +28,8 @@ module.exports = {
         "type": "category",
         "label": "Analízis 2",
         "items": [
-            "anal2/0.index"
+            "anal2/0.index",
+            "anal2/1.gyakorlat"
         ]
     },
     {
@@ -51,7 +52,9 @@ module.exports = {
         "items": [
             "adatb1/0.index",
             "adatb1/2.gyakorlat",
-            "adatb1/3.gyakorlat"
+            "adatb1/3.gyakorlat",
+            "adatb1/4.gyakorlat",
+            "adatb1/5.gyakorlat"
         ]
     },
     {
