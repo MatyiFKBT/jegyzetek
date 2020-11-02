@@ -17,24 +17,6 @@ function File({ filename, repo, folder, lines = '' }) {
   const editUrl = `https://github.com/${repo}/blob/master/docs/`;
   const rawDocs = `https://raw.githubusercontent.com/${repo}/master/docs/`;
   function readFromX(path) {
-    if (!dev) {
-      fetch(path)
-        .catch((e) => {
-          return { error: e };
-        })
-        .then((content) => {
-          content.text().then((c) => {
-            console.log(c.split('\n'));
-            if (lines) {
-              const [start, end] = lines.split('-');
-              console.log(c.slice(start.replace('L', ''), end.replace('L', '')));
-              setContent(c);
-            } else {
-              setContent(c);
-            }
-          });
-        });
-    } else {
       fetch(rawDocs + folder + '/' + filename)
         .catch((e) => {
           return { error: e };
@@ -53,7 +35,6 @@ function File({ filename, repo, folder, lines = '' }) {
             }
           });
         });
-    }
   }
 
   useEffect(() => {
