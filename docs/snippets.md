@@ -4,7 +4,7 @@ title: Hasznos kódrészletek
 sidebar_label: Kódrészletek
 
 ---
-
+## Forrásfájl beszúrása (markdown)
 ```markdown
 import File from '../../src/components/File';
 import {customFields } from '../../docusaurus.config';
@@ -19,5 +19,5 @@ const repo = customFields.repo
 ## Mermaid support
 https://github.com/facebook/docusaurus/issues/1258#issuecomment-594393744
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTQ3MDY2NV19
+eyJoaXN0b3J5IjpbMTQ4ODM0NDM2MiwtMzAxNDcwNjY1XX0=
 -->
