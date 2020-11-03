@@ -15,3 +15,9 @@ const repo = customFields.repo
 <File filename="EchoClient.py" folder="tele/gyak3" repo={repo} lines="L10-L20"/>
 
 ```
+
+## Mermaid support
+https://github.com/facebook/docusaurus/issues/1258#issuecomment-594393744
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMwMTQ3MDY2NV19
+-->
