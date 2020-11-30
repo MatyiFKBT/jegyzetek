@@ -18,7 +18,7 @@ x = int(sys.argv[3])
 y = int(sys.argv[4])
 hour = int(sys.argv[5].split(':')[0])
 minute = int(sys.argv[5].split(':')[1])
-neptun = "CGSMEF"
+neptun = "KNDQJI"
 
 values = (x,y,hour,minute,neptun.encode())
 packed_data = packer.pack(*values)
