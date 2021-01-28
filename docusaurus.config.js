@@ -29,6 +29,12 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          //dropdownItemsAfter: [{to: '/versions', label: 'Minden'}],
+          //dropdownActiveClassDisabled: true,
+        }
       ],
     },
     footer: {
