@@ -3813,12 +3813,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus-file@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/docusaurus-file/-/docusaurus-file-1.0.1.tgz#fbcbf1da03d79810b73e400b0f3ff48b0151c75c"
-  integrity sha512-Hxv9TugiztNiwjOTRNQkfOVdNZTeDORUEVBZj/RUh1qs7ljfEuQfo1Iwkw59IDcbMDb1iVbiv2lbfkCKxy5z2A==
-  dependencies:
-    prism-react-renderer "^1.1.1"
+docusaurus-file@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-file/-/docusaurus-file-1.2.0.tgz#e19121391bfcd2cfe6c81d71eac403af72fa6802"
+  integrity sha512-HI/Zur7HpWfNmaBZSxwBozcnV5zodXcN84TBfD6ceFn0fxjrnJ9HAVJUCLHepWEGfp3b23mRHfVU/K7JRr5K1Q==
 
 docusaurus-plugin-auto-sidebars@^1.0.7:
   version "1.0.7"

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
+import {customFields} from '../../docusaurus.config';
 /**
  * Component to display a file from a given repo and subpath. 
  * 
@@ -8,7 +9,7 @@ import Highlight, { defaultProps } from 'prism-react-renderer';
  * @param repo name of the repository
  * @param lines [optional] only display these lines. (e.g L10-L20)
  */
-function File({ filename, repo, folder, lines = '' }) {
+function File({ filename, repo=customFields.repo, folder, lines = '' }) {
   const [content, setContent] = useState('');
   
   const language = filename.split('.')[1];

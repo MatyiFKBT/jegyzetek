@@ -15,7 +15,7 @@
     "@docusaurus/core": "^2.0.0-alpha.56",
     "@docusaurus/preset-classic": "^2.0.0-alpha.56",
     "classnames": "^2.2.6",
-    "docusaurus-file": "1.0.1",
+    "docusaurus-file": "1.2.0",
     "docusaurus-plugin-auto-sidebars": "^1.0.7",
     "prism-react-renderer": "^1.1.1",
     "react": "^16.8.4",
