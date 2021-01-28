@@ -17,32 +17,6 @@ module.exports = {
             "konk/0.index",
             {
                 "type": "category",
-                "label": "fokea",
-                "items": [
-                    {
-                        "type": "category",
-                        "label": "harmas",
-                        "items": []
-                    },
-                    {
-                        "type": "category",
-                        "label": "kettes",
-                        "items": []
-                    },
-                    {
-                        "type": "category",
-                        "label": "negyes",
-                        "items": []
-                    },
-                    {
-                        "type": "category",
-                        "label": "otos",
-                        "items": []
-                    }
-                ]
-            },
-            {
-                "type": "category",
                 "label": "gyak1",
                 "items": []
             },

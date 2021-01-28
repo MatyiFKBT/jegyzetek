@@ -101,6 +101,7 @@ function DocItem(props) {
                 )}
                 <div className="markdown">
                   <DocContent />
+                  {/* {JSON.stringify(version)} */}
                   {/* Fájlok */}
                   {metadata.files && (
                     <div>
