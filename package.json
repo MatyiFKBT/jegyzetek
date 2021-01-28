@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "patch-package",
-    "start": "docusaurus start --port 8080 --host 0.0.0.0",
+    "start": "docusaurus start --port 8088 --host 0.0.0.0",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
