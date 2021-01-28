@@ -6,13 +6,11 @@ sidebar_label: Kódrészletek
 ---
 ## Forrásfájl beszúrása (markdown)
 ```markdown
-import File from '../../src/components/File';
-import {customFields } from '../../docusaurus.config';
-const repo = customFields.repo
+import File from '@site/src/components/File';
 
 ## Használat
 
-<File filename="EchoClient.py" folder="tele/gyak3" repo={repo} lines="L10-L20"/>
+<File filename="EchoClient.py" folder="tele/gyak3" lines="L10-L20"/>
 
 ```
 

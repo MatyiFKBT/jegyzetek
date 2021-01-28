@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
-import {customFields} from '../../docusaurus.config';
+import {customFields} from '@site/docusaurus.config';
 /**
  * Component to display a file from a given repo and subpath. 
  * 
