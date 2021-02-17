@@ -15,7 +15,6 @@ function File({ filename, repo=customFields.repo, folder, lines = '' }) {
   const {siteMetadata} = useDocusaurusContext()
   const {pathname} = useLocation();
   const version = pathname.replace('/docs','').split('/')[1].includes('felev') ? `version-${pathname.replace('/docs','').split('/')[1]}/` : '/';
-  console.log({version})
   const [content, setContent] = useState('');
   
   const language = filename.split('.')[1];
