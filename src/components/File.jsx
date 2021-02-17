@@ -53,9 +53,9 @@ function File({ filename, repo=customFields.repo, folder, lines = '' }) {
   return (
     <div>
       <pre className='title'>
-        <a href={editUrl + '/' +docsDir + '/' + version + folder + filename}>{filename}</a>
+        <a href={editUrl + '/' +docsDir + '/' + version + folder + '/' + filename}>{filename}</a>
       </pre>
-      <a href={editUrl + '/' + docsDir + '/' + version+ folder + filename + '#'+lines} className='ne'>
+      <a href={editUrl + '/' + docsDir + '/' + version+ folder + '/' + filename + '#'+lines} className='ne'>
         <Highlight {...defaultProps} code={content} language={language}>
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
             <pre className={className} style={style}>
