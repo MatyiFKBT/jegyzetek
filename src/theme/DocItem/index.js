@@ -100,8 +100,10 @@ function DocItem(props) {
                   </header>
                 )}
                 <div className="markdown">
+                  {/* {JSON.stringify(props)} */}
+                  {/* <h1>ppp</h1> */}
+                  {/* {JSON.stringify(useBaseUrl(props.route.path))} */}
                   <DocContent />
-                  {/* {JSON.stringify(version)} */}
                   {/* Fájlok */}
                   {metadata.files && (
                     <div>

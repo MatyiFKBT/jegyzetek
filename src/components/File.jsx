@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import {customFields} from '@site/docusaurus.config';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { useLocation } from 'react-router-dom';
 /**
  * Component to display a file from a given repo and subpath. 
  * 
@@ -10,13 +12,19 @@ import {customFields} from '@site/docusaurus.config';
  * @param lines [optional] only display these lines. (e.g L10-L20)
  */
 function File({ filename, repo=customFields.repo, folder, lines = '' }) {
+  const {siteMetadata} = useDocusaurusContext()
+  const {pathname} = useLocation();
+  const version = pathname.replace('/docs','').split('/')[1].includes('felev') ? `version-${pathname.replace('/docs','').split('/')[1]}/` : '/';
+  console.log({version})
   const [content, setContent] = useState('');
   
   const language = filename.split('.')[1];
   const dev = process.env.NODE_ENV == 'development';
 
-  const editUrl = `https://github.com/${repo}/blob/master/docs/`;
-  const rawDocs = `https://raw.githubusercontent.com/${repo}/master/docs/`;
+  const editUrl = `https://github.com/${repo}/blob/master/`;
+  const docsDir = version=='/'?'docs':'versioned_docs';
+
+  const rawDocs = `https://raw.githubusercontent.com/${repo}/master/${docsDir}/${version}`;
   function readFromX(path) {
       fetch(rawDocs + folder + '/' + filename)
         .catch((e) => {
@@ -42,13 +50,13 @@ function File({ filename, repo=customFields.repo, folder, lines = '' }) {
     readFromX(filename);
   }, [filename]);
   //return "Read nothing";
-
+  
   return (
     <div>
       <pre className='title'>
-        <a href={editUrl + folder + '/' + filename}>{filename}</a>
+        <a href={editUrl + '/' +docsDir + '/' + version + folder + filename}>{filename}</a>
       </pre>
-      <a href={editUrl + folder + '/' + filename + '#'+lines} className='ne'>
+      <a href={editUrl + '/' + docsDir + '/' + version+ folder + filename + '#'+lines} className='ne'>
         <Highlight {...defaultProps} code={content} language={language}>
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
             <pre className={className} style={style}>

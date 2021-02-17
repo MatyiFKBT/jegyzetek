@@ -2,13 +2,13 @@
 module.exports = {
   docs: [
     "a-kurzusok",
-    "snippets",
     {
         "type": "category",
-        "label": "teszt",
+        "label": "Innovatív vállalkozás",
         "items": [
-            "teszt/helo"
+            "ivm/0.index"
         ]
-    }
+    },
+    "snippets"
 ]
 };

@@ -6,4 +6,8 @@ sidebar_label: A kurzusok (6.félév)
 ---
 ## Gyakorlatok
 
-- [Teszt](teszt/helo)
+- [Innovatív vállalkozás és menedzsment](ivm/index)
+
+import File from '@site/src/components/File';
+
+<File filename="sidebars.yaml" folder="" />
