@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/katex/index.d.ts b/node_modules/@types/katex/index.d.ts
+index 726a582..6419c47 100644
+--- a/node_modules/@types/katex/index.d.ts
++++ b/node_modules/@types/katex/index.d.ts
+@@ -117,7 +117,7 @@ export interface KatexOptions {
+      *
+      * If `"warn"`, warn about behavior via `console.warn`
+      *
+-     * @default "warn"
++     * @default "false"
+      */
+     strict?: boolean | string | Function;
+     /**
