@@ -9,7 +9,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "files": "cd src && node files.js",
-    "bserve": "yarn build && npx serve build"
+    "bserve": "yarn build && npx serve build",
+    "v": "yarn run docusaurus docs:version"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.56",

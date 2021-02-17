@@ -6,4 +6,4 @@ sidebar_label: A kurzusok (6.félév)
 ---
 ## Gyakorlatok
 
-- [Teszt](teszt/helo)
+- [Tesztt](teszt/helo)

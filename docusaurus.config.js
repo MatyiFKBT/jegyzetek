@@ -85,6 +85,17 @@ module.exports = {
             'https://github.com/matyifkbt/jegyzetek/edit/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          "lastVersion": "6felev",
+          "versions": {
+            "5felev":{
+              "label": "5. félév",
+              "path":"5felev"
+            },
+            "6felev":{
+              "label": "6. félév",
+            },
+          },
+          // "includeCurrentVersion":false
         },
         blog: {
           showReadingTime: true,

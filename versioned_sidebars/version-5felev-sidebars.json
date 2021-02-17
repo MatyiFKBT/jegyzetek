@@ -1,0 +1,257 @@
+{
+  "version-5felev/docs": [
+    {
+      "type": "doc",
+      "id": "version-5felev/a-kurzusok"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Fullstack webprogramozás",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/fstack/0.index"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/fstack/1.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Konkurrens programozás",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/konk/0.index"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "gyak1",
+          "items": []
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/konk/1.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/konk/2.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/konk/4.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/konk/8.Fokea"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Analízis 2",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/anal2/0.index"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/anal2/1.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Algoritmusok és adatszerkezetek 2",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/algo2/0.index"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "elso",
+          "items": []
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/algo2/1.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/algo2/2.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/algo2/9.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Adatbázisok 1",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/0.index"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/2.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/3.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/4.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/5.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/6.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/7.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/8.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/9.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/10.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/adatb1/11.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Diszkrét modellek alkalmazásai",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/dimod/0.index"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/dimod/6.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/dimod/7.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/dimod/10.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/dimod/11.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Big Data Architektúrák",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/bigdata/0.index"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/bigdata/6.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/bigdata/99.snippets"
+        }
+      ]
+    },
+    {
+      "type": "doc",
+      "id": "version-5felev/snippets"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Telekommunikációs hálózatok",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/tele/0.index"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "gyak2",
+          "items": []
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "gyak3",
+          "items": []
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "gyak8",
+          "items": []
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/tele/1.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/tele/2.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/tele/3.gyakorlat"
+        },
+        {
+          "type": "doc",
+          "id": "version-5felev/tele/8.gyakorlat"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Számításelmélet 2",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5felev/szamelm2/szamitaselmelet-2"
+        }
+      ]
+    }
+  ]
+}

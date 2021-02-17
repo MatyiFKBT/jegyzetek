@@ -1,0 +1,23 @@
+{
+  "version-6felev/docs": [
+    {
+      "type": "doc",
+      "id": "version-6felev/a-kurzusok"
+    },
+    {
+      "type": "doc",
+      "id": "version-6felev/snippets"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "teszt",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-6felev/teszt/helo"
+        }
+      ]
+    }
+  ]
+}
