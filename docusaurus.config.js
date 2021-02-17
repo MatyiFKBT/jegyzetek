@@ -29,6 +29,12 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          //dropdownItemsAfter: [{to: '/versions', label: 'Minden'}],
+          //dropdownActiveClassDisabled: true,
+        }
       ],
     },
     footer: {
@@ -52,7 +58,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/matyifkbt/jegyzetek',
             },
           ],
         },
@@ -79,6 +85,17 @@ module.exports = {
             'https://github.com/matyifkbt/jegyzetek/edit/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          "lastVersion": "current",
+          "versions": {
+            "5felev":{
+              "label": "5. félév",
+              "path":"5felev"
+            },
+            "current":{
+              "label": "6. félév",
+            },
+          },
+          "includeCurrentVersion":true
         },
         blog: {
           showReadingTime: true,

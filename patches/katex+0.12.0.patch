@@ -1,0 +1,39 @@
+diff --git a/node_modules/katex/dist/katex.js b/node_modules/katex/dist/katex.js
+index 37fb0fa..25934d4 100644
+--- a/node_modules/katex/dist/katex.js
++++ b/node_modules/katex/dist/katex.js
+@@ -434,7 +434,7 @@ function () {
+     this.macros = options.macros || {};
+     this.minRuleThickness = Math.max(0, utils.deflt(options.minRuleThickness, 0));
+     this.colorIsTextColor = utils.deflt(options.colorIsTextColor, false);
+-    this.strict = utils.deflt(options.strict, "warn");
++    this.strict = utils.deflt(options.strict, false);
+     this.trust = utils.deflt(options.trust, false);
+     this.maxSize = Math.max(0, utils.deflt(options.maxSize, Infinity));
+     this.maxExpand = Math.max(0, utils.deflt(options.maxExpand, 1000));
+diff --git a/node_modules/katex/dist/katex.mjs b/node_modules/katex/dist/katex.mjs
+index 7693822..5ed99aa 100644
+--- a/node_modules/katex/dist/katex.mjs
++++ b/node_modules/katex/dist/katex.mjs
+@@ -298,7 +298,7 @@ class Settings {
+     this.macros = options.macros || {};
+     this.minRuleThickness = Math.max(0, utils.deflt(options.minRuleThickness, 0));
+     this.colorIsTextColor = utils.deflt(options.colorIsTextColor, false);
+-    this.strict = utils.deflt(options.strict, "warn");
++    this.strict = utils.deflt(options.strict, false);
+     this.trust = utils.deflt(options.trust, false);
+     this.maxSize = Math.max(0, utils.deflt(options.maxSize, Infinity));
+     this.maxExpand = Math.max(0, utils.deflt(options.maxExpand, 1000));
+diff --git a/node_modules/katex/src/Settings.js b/node_modules/katex/src/Settings.js
+index 4e0a2ec..888fd40 100644
+--- a/node_modules/katex/src/Settings.js
++++ b/node_modules/katex/src/Settings.js
+@@ -110,7 +110,7 @@ export default class Settings {
+             utils.deflt(options.minRuleThickness, 0)
+         );
+         this.colorIsTextColor = utils.deflt(options.colorIsTextColor, false);
+-        this.strict = utils.deflt(options.strict, "warn");
++        this.strict = utils.deflt(options.strict, false);
+         this.trust = utils.deflt(options.trust, false);
+         this.maxSize = Math.max(0, utils.deflt(options.maxSize, Infinity));
+         this.maxExpand = Math.max(0, utils.deflt(options.maxExpand, 1000));

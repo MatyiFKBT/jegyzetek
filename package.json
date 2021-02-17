@@ -4,18 +4,19 @@
   "private": true,
   "scripts": {
     "postinstall": "patch-package",
-    "start": "docusaurus start --port 8080 --host 0.0.0.0",
+    "start": "docusaurus start --port 8088 --host 0.0.0.0",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "files": "cd src && node files.js",
-    "bserve": "yarn build && npx serve build"
+    "bserve": "yarn build && npx serve build",
+    "v": "yarn run docusaurus docs:version"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.56",
     "@docusaurus/preset-classic": "^2.0.0-alpha.56",
     "classnames": "^2.2.6",
-    "docusaurus-file": "1.0.1",
+    "docusaurus-file": "1.2.0",
     "docusaurus-plugin-auto-sidebars": "^1.0.7",
     "prism-react-renderer": "^1.1.1",
     "react": "^16.8.4",
