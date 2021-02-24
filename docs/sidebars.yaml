@@ -3,13 +3,10 @@
   - Konkurrens programozás
   - gyak2: false
   - fokea: false
-- anal2: Analízis 2
-- algo2: Algoritmusok és adatszerkezetek 2
-- adatb1: Adatbázisok 1
-- dimod: Diszkrét modellek alkalmazásai
-- tele: Telekommunikációs hálózatok
-- szamelm2: Számításelmélet 2
-- bigdata:
-  - Big Data Architektúrák
-  - zh1: false 
+- waf: Webes Alkalmazásfejlesztés
+- nummod: Numerikus módszerek
+- adatb2: Adatbázisok 2
+- mi: Mesterséges Intelligencia
+- szammod: Számítási Modellek
+- logika: Logika
 - .stackedit-trash: false
