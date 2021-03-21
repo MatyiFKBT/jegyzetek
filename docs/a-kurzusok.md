@@ -8,6 +8,8 @@ sidebar_label: A kurzusok (6.félév)
 
 - [Innovatív vállalkozás és menedzsment](ivm/index)
 - [Adatbázisok 2](adatb2/index)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTY0NDMzMSwtNjg1MjI3MTI5XX0=
--->
+- [Számítási modellek](szmo/index)
+
+import File from '@site/src/components/File';
+
+<File filename="sidebars.yaml" folder="" />
