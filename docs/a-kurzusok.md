@@ -14,6 +14,7 @@ sidebar_label: A kurzusok (6.félév)
 import File from '@site/src/components/File';
 
 <File filename="sidebars.yaml" folder="" />
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mzk1NjI2M119
+eyJoaXN0b3J5IjpbMTA1ODU2NjkzMywxMDkzOTU2MjYzXX0=
 -->
